@@ -1,0 +1,99 @@
+    /* ====== Global styles ====== */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1d;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 30px;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      color: #aaa;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .buttons button:hover {
+      background: #555;
+    }
+
+    /* ====== Top images ====== */
+    .image-row {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      gap: 10px;
+    }
+
+    .image-row img {
+      height: 300px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    /* ====== Sites grid ====== */
+    .sites {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    /* ====== Site cards ====== */
+    .card {
+      background: #2a2a2e;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: left;
+      transition: transform 0.2s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+      object-fit: contain;
+      background: #2a2a2e;
+      padding: 5px;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    .card p {
+      margin-top: 5px;
+      color: #bbb;
+      font-size: 0.9rem;
+    }
+
+    .card-text {
+      display: flex;
+      flex-direction: column;
+    }
